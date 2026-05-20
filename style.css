@@ -188,11 +188,10 @@ body:hover .cursor{opacity:1}
   justify-content:center;
   padding-top:100px;
   min-height:100vh;
-  background:
-    radial-gradient(ellipse 80% 60% at 70% 50%, rgba(20,83,45,0.35) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 80% at 10% 80%, rgba(16,100,40,0.2) 0%, transparent 60%),
-    linear-gradient(160deg, #04080a 0%, #071410 50%, #04080a 100%);
-}
+  background-image: url('assets/home.png');
+  background-size: cover;
+  background-position: center center;
+}   
 /* subtle grid overlay */
 .hero-grid-overlay{
   position:absolute;inset:0;
